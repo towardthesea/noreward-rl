@@ -19,7 +19,7 @@ idna==2.5
 incremental==17.5.0
 ipaddress==1.0.18
 mock==2.0.0
-numpy==1.13.1
+numpy
 olefile==0.44
 pbr==3.1.1
 Pillow==4.2.1
@@ -32,7 +32,7 @@ PyYAML==3.12
 requests>=2.20.0
 scipy==0.19.1
 six==1.10.0
-tensorflow==0.12.0rc1
+tensorflow==1.14
 Twisted==17.5.0
 txaio==2.8.0
 ujson==1.35

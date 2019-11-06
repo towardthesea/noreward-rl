@@ -299,7 +299,7 @@ class A3C(object):
             grads = tf.gradients(self.loss * 20.0, pi.var_list)  # batchsize=20. Factored out to make hyperparams not depend on it.
 
             # computing predictor loss
-            if self.unsup:
+            if self.unsup:  # unsupervised learning
                 if 'state' in unsupType:
                     self.predloss = constants['PREDICTION_LR_SCALE'] * predictor.forwardloss
                 else:

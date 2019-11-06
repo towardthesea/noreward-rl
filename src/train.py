@@ -55,7 +55,7 @@ def create_commands(session, num_workers, remotes, env_id, logdir, shell='bash',
     # for launching the TF workers and for launching tensorboard
     py_cmd = 'python' if savio else sys.executable
     base_cmd = [
-        'CUDA_VISIBLE_DEVICES=',
+        'CUDA_VISIBLE_DEVICES=0',
         py_cmd, 'worker.py',
         '--log-dir', logdir,
         '--env-id', env_id,

@@ -12,8 +12,7 @@ doom-py==0.0.15
 fastzbarlight==0.0.14
 funcsigs==1.0.2
 -e git+https://github.com/openai/go-vncdriver.git@33bd0dd9620e97acd9b4e559bca217df09ba89e6#egg=go_vncdriver
--e git+https://github.com/openai/gym.git@6f277090ed3323009a324ea31d00363afd8dfb3a#egg=gym
--e git+https://github.com/pathak22/gym-pull.git@589039c29567c67fb3d5c0a315806419e0999415#egg=gym_pull
+gym==0.10.8
 hyperlink==17.2.1
 idna==2.5
 incremental==17.5.0
